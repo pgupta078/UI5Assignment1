@@ -1,0 +1,15 @@
+<mvc:View controllerName="search.INV.controller.view1" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml">
+	<html:style>
+		.bluetext{ color:blue; }
+        .myimage{float:right !important; width:150px; height:100px;}
+        .mylogo{float:left !important; width:150px; height:100px;}
+	</html:style>
+	<Image class="myimage" src="http://www.sap.com/global/ui/images/global/sap-logo.png"/>
+<!--	<Image src="search.INV/Images/Searchimage.jpg"/>  -->
+	<Image class="mylogo" src="Images/Searchimage.jpg"/>
+	<Text class="bluetext" text="Invoice Report"/>
+	<Input placeholder="Invoice Type"/>
+	<Input placeholder="Invoice Number" id="invNumber"/>
+	<Input placeholder="Company Code"/>
+	<Button press=".onSearchInv" icon="sap-icon://search"/>
+</mvc:View>
